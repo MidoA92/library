@@ -1,0 +1,13 @@
+* {
+  margin: auto;
+}
+.allBox {
+  margin-top: 50px;
+}
+.invisble {
+  display: none;
+}
+
+.show {
+  display: inline;
+}
