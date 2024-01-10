@@ -6,8 +6,8 @@ const infoUser = document.getElementById('infoUser');
 function removeVisible() {
   infoBooks.classList.toggle('invisble');
   infoUser.classList.toggle('invisble');
-  btnBook.classList.add('invisble');
-  btnUser.classList.add('invisble');
+  btnBook.classList.toggle('invisble');
+  btnUser.classList.toggle('invisble');
 }
 
 btnBook.addEventListener('click', removeVisible);
